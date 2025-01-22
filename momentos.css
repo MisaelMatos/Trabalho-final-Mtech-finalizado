@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    background-color: #f3fdb8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.person img {
+    width: 250px;  /* Tamanho maior para a foto */
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.person .info {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.person .info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.person .info p {
+    margin-bottom: 5px;
+}
+
+.group-photo {
+    text-align: center;
+}
+
+.group-photo img {
+    width: 70%; /* Foto do grupo em tamanho reduzido */
+    max-width: 800px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.group-photo p {
+    font-size: 1.2rem;
+}
+
+.b{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #4CAF50; /* Cor de fundo verde */
+    border: none; /* Remove a borda */
+    color: #f8f8fa; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinha o texto no centro */
+    text-decoration: none; /* Remove o sublinhado */
+    display: inline-block; /* Exibe os botões na mesma linha */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 10px; /* Margem entre os botões */
+    cursor: pointer; /* Cursor de mãozinha */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave ao passar o mouse */  
+}

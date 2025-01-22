@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos - Calculadora e Impostos</title>
+    <link rel="stylesheet" href="projetos.css">
+    <link rel="shortcut icon" href="img/WhatsApp Image 2025-01-21 at 00.46.03.jpeg" type="image/x-icon">
+    <a href="projetofinal.html" class="b">Voltar</a>
+</head>
+<body>
+        <h1>Veja alguns Projetos que já realizamos até aqui</h1>
+    <div class="container">
+        
+
+        <div class="calculator">
+            <h2>Calculadora</h2>
+            <input type="text" id="display" disabled>
+            <div class="buttons">
+                <button onclick="appendNumber(1)">1</button>
+                <button onclick="appendNumber(2)">2</button>
+                <button onclick="appendNumber(3)">3</button>
+                <button onclick="appendNumber(4)">4</button>
+                <button onclick="appendNumber(5)">5</button>
+                <button onclick="appendNumber(6)">6</button>
+                <button onclick="appendNumber(7)">7</button>
+                <button onclick="appendNumber(8)">8</button>
+                <button onclick="appendNumber(9)">9</button>
+                <button onclick="appendNumber(0)">0</button>
+                <button onclick="clearDisplay()">C</button>
+                <button onclick="calculate()">=</button>
+                <button onclick="appendOperator('+')">+</button>
+                <button onclick="appendOperator('-')">-</button>
+                <button onclick="appendOperator('*')">*</button>
+                <button onclick="appendOperator('/')">/</button>
+            </div>
+        </div>
+
+        <div class="tax-calculator">
+            <h2>Cálculo de Impostos</h2>
+            <label for="income">Informe sua renda:</label>
+            <input type="number" id="income" placeholder="R$">
+            <button onclick="calculateTax()">Calcular Imposto</button>
+            <p id="tax-result"></p>
+        
+
+    
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    
+
+        <h2>Tela de Login</h2>
+        <form id="login-form">
+            <div class="input-group">
+                <label for="username">Usuário</label>
+                <input type="text" id="username" placeholder="Digite seu usuário" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" placeholder="Digite sua senha" required>
+            </div>
+            <button type="submit">Entrar</button>
+            
+        </form>
+        <p id="error-message" class="error-message"></p>
+
+        <div class="lottery">
+            <h2>Sorteio de Números Aleatórios</h2>
+            <label for="min">Valor Mínimo:</label>
+            <input type="number" id="min" value="1">
+            <label for="max">Valor Máximo:</label>
+            <input type="number" id="max" value="100">
+            <button onclick="drawLottery()">Sortear</button>
+            <p id="lottery-result"></p>
+    
+
+    <script src="projetos.js"></script>
+</body>
+</html>
